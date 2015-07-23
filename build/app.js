@@ -7,7 +7,7 @@ $(document).ready(function(){
     verticalCentered: false
   });
 
-  $.fn.fullpage.setAllowScrolling(false);
+  $.fn.fullpage.setAllowScrolling(true);
 
   // var link = $('ul a');
 
