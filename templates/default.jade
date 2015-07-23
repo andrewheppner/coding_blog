@@ -1,0 +1,54 @@
+html
+head
+  title= title 
+  link(href='jquery.fullPage.css', rel='stylesheet', type='text/css')
+  link(href='http://fonts.googleapis.com/css?family=Abril+Fatface', rel='stylesheet', type='text/css')
+  link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css", rel='stylesheet', type='text/css')
+  link(href='styles.css', rel='stylesheet', type='text/css')
+  script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js", type='text/javascript')
+  script(src='jquery.fullPage.min.js', type='text/javascript')
+  script(src="app.js", type='text/javascript')
+body
+  ul#nav
+    li
+      a(href='#Home', data-menuanchor="Home") Home
+    li
+      a(href='#Reading',data-menuanchor="Reading") Reading
+    li
+      a(href='#Watching', data-menuanchor="Watching") Watching
+    li
+      a(href='#Doing', data-menuanchor="Doing") Doing
+    li
+      a(href='#Info', data-menuanchor="Info") Info
+
+  div#fullpage
+    div.section.landing
+      div#banner
+        h1(class='logo') Andrew Heppner 
+        h3 is currently ... 
+    div.section.reading
+      div.slide.reading ok
+      div.slide.reading uh
+      div.slide.reading whatsup
+      div.slide.reading shutup
+    div.section.watching
+      div.slide.watching 
+        h1 23-07-2015
+      div.slide.watching  uh
+      div.slide.watching  whatsup
+      div.slide.watching  shutup
+    div.section.doing
+      div.slide.doing ok
+      div.slide.doing uh
+      div.slide.doing whatsup
+      div.slide.doing shutup
+    div.section.info 
+      div#contact-icons
+        i(class="fa fa-envelope-o icon") 
+        i(class="fa fa-github icon") 
+        i(class="fa fa-linkedin-square icon")
+      div#contact-text
+        h3 andrewbheppner@gmail.com
+        h3 linkedin.com/in/andrewbheppner
+        h3 github.com/andrewheppner
+        
